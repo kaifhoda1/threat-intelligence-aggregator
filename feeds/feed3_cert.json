@@ -1,0 +1,16 @@
+{
+  "feed_name": "MockCERT-Feed",
+  "generated": "2024-01-15",
+  "indicators": [
+    {"type": "ip",     "value": "185.220.101.45",                   "tags": ["botnet","c2"],    "confidence": 90},
+    {"type": "ip",     "value": "198.51.100.22",                    "tags": ["scanner"],        "confidence": 60},
+    {"type": "domain", "value": "malware-c2.ru",                    "tags": ["c2","malware"],   "confidence": 95},
+    {"type": "domain", "value": "bad-actor-domain.com",             "tags": ["phishing"],       "confidence": 75},
+    {"type": "url",    "value": "http://bad-actor-domain.com/gate.php", "tags": ["exploit"],    "confidence": 80},
+    {"type": "hash",   "value": "5d41402abc4b2a76b9719d911017c592", "tags": ["ransomware"],     "confidence": 85},
+    {"type": "hash",   "value": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "tags": ["trojan"], "confidence": 70},
+    {"type": "email",  "value": "spammer@bad-actor-domain.com",     "tags": ["spam"],           "confidence": 65},
+    {"type": "ip",     "value": "91.108.4.1",                       "tags": ["tor-exit"],       "confidence": 55},
+    {"type": "ip",     "value": "45.142.212.100",                   "tags": ["botnet"],         "confidence": 88}
+  ]
+}
